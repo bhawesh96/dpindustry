@@ -201,7 +201,9 @@ jQuery(function ($) {
 				slidesToScroll: 1,
 				dots: true,
 				speed: 600,
-				arrows: false
+				arrows: false,
+				autoplay: true,
+				autoplaySpeed: 2000
 			});
 		}
 		testimonialCarousel();
